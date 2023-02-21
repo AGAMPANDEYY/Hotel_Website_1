@@ -1,0 +1,202 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2em;
+    height: 250px;
+    background-color: #333;
+}
+a
+{
+    color:#fff;
+    text-decoration: none;
+}
+h1
+{
+    padding: 4px;
+    margin:10px;
+}
+#navbar
+{
+    background-color: #333;
+    color:#fff;
+    overflow: auto;
+    border-bottom: #d48739 solid 4px;
+    
+}
+#navbar h1
+{
+    color: #fff;
+    float: left;
+}
+#navbar li
+{
+    list-style-type: none;
+    float: right;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar li a:hover, #navbar ul li a.currentpage
+{
+    font-size: large;
+    background-color: #444;
+    color: #f7c08a;
+}
+.container
+{
+    width: 100px;
+    overflow: auto;
+    padding:0px;
+}
+.colorchange
+{
+    color: #d48739;
+}
+.text1
+{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.btn
+{
+    display:inline;
+    height: 20px;
+    font-size: 18px;
+    background-color: #333;
+    color:#fff;
+    padding: 13px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color:#d48739;
+    color: #333;
+    font-size: larger;
+}
+.showcase
+{
+  background-image:url(https://images.pexels.com/photos/3117550/pexels-photo-3117550.jpeg?auto=compress&cs=tinysrgb&w=600); 
+  height: 500px;
+}
+.showcase .showcase-content
+{
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.showcase .showcase-content h1
+{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+/*Sections of image and histroy of hotel text*/
+.home_info
+{
+    height: 500px;
+    overflow: auto;
+    border-bottom: #d48739 solid 4px;
+}
+.home_info .imagesec
+{
+    float: left;
+    background-image: url(https://images.pexels.com/photos/1755288/pexels-photo-1755288.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 70%; 
+    min-height: 100%;
+    
+    
+    
+}
+.home_info .textsec #headingtextsec
+{
+    padding-top: 30px;
+    
+}
+.home_info .textsec 
+{
+    
+    text-align: center;
+    padding: 40px 30px ;
+    background-color: #fff;
+    padding-bottom: 80px;
+
+}
+.home_info .textsec #text1
+{
+    position: relative;
+    left: 30px;
+    padding: 50px 30px ;
+    color:#333;
+    
+    
+}
+.home_info .textsec .btn
+{
+    padding: 10px;
+    margin-top: 50px;
+    background-color:#333;
+    color: #fff;;
+    margin-bottom: 600px;
+}
+.home_info .textsec .btn:hover
+{
+    background-color: #d48739;
+    color: #333;;
+}
+/*features section*/
+.features
+{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+.features #box1,#box2,#box3
+{
+    display: block;
+    float: left;
+    width: 33.33%;
+    min-height: 100px;
+    background-color: #fff;
+    color:#333;
+    padding: 20px 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    max-width: auto;
+    
+}
+.features #box1,#box2,#box3
+{
+    float: left;
+}
+.features #box2
+{
+    color:#333;
+    background-color: #d48739;
+}
+.features .colorchange1
+{
+    color:#fff;
+}
+/*footer*/
+#footer 
+{
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    width: auto;
+    height: 30px;
+    padding: 20px;
+}
+#footer a
+{
+    background-color: #333;
+}
